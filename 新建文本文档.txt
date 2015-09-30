@@ -1,0 +1,8 @@
+import os,sys,time
+
+class HiddenLayer(object):
+    def __init__(self,input,n_in,n_out,W=None,b=None):
+        """
+        W=(n_in,n_out) len(b)=n_out
+        """
+        self.input=input
